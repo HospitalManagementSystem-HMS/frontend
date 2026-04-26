@@ -11,11 +11,11 @@ permissions:
 
 jobs:
   pipeline:
-    uses: PrintNow-Dev/PrintNow/.github/workflows/frontend-templates.yaml@dev
+    uses: HospitalManagementSystem-HMS/Hospital-Management/workflows/frontend-templates.yaml@dev
 
     with:
       service: "frontend"
-      image: "ghcr.io/printnow-dev/frontend"
+      image: "ghcr.io/HospitalManagementSystem-HMS/frontend"
       trigger: ${{ github.event_name }}
 
     secrets: inherit
