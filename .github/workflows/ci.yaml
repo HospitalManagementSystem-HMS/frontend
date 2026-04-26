@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   pipeline:
-    uses: HospitalManagementSystem-HMS/Hospital-Management/workflows/frontend-templates.yaml@dev
+    uses: HospitalManagementSystem-HMS/Hospital-Management/.github/workflows/frontend-templates.yaml@dev
 
     with:
       service: "frontend"
