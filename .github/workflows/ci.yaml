@@ -16,6 +16,7 @@ jobs:
     with:
       service: "frontend"
       image: "ghcr.io/HospitalManagementSystem-HMS/frontend"
+      sonar_key: "HospitalManagementSystem-HMS_frontend_0e9b0218-3c7b-4703-a335-d1c2528ebeb6"
       trigger: ${{ github.event_name }}
 
     secrets: inherit
