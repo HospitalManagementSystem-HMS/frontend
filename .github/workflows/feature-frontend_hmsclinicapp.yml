@@ -50,5 +50,5 @@ jobs:
         with:
           app-name: 'hmsclinicapp'
           slot-name: 'Production'
-          package: dist/
+          package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DDD3823F1422463FB376BF48E5F5F20A }}
